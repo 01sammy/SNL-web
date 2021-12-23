@@ -13,6 +13,115 @@ a, a:link {
     height: 152px;
     margin: 0 auto;
 }
-.menu ul li{
-    float: left;
+.picture {
+   /* max-width: 100%;*/
+    background: url("../images/heroImg.jpg") center;
+    height: 335px;
+    margin: 100px 0 0 0;
+}
+
+.menu {
+    background:rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 25px 0;
+}
+.menu li:nth-child(2) {
+    margin: 0 70px;
+}
+
+.menu a:hover {
+    color: #01ccff;
+}
+/*main style*/
+/*table setting*/
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid #191919;
+}
+
+.bg {
+    background: #ffeded;
+}
+.point {
+    color: #ff0000;
+}
+th, td {
+    padding: 20px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+th {
+    background: #f7f7f7;
+}
+caption {
+    margin: 70px 0 20px;
+    font-size: 1.125em;
+}
+/*fee table*/
+#tb_fee th {
+    width: 25%;
+}
+
+/*casting table*/
+#tb_cast th {
+    width: 25%;
+}
+
+#tb_cast {
+    margin-bottom:50px;
+}
+#tb_cast td {
+    width: 75%;
+}
+
+/*footer style*/
+.extra-menu {
+    background: #fafafa;
+    color: #666666;
+    border-top: 1px solid #666;
+}
+.extra-menu ul {
+    text-align: center;
+}
+.extra-menu li {
+    display: inline-block;
+    padding: 15px 0;
+}
+.extra-menu li:nth-child(2) {
+    margin: 0 30px;
+}
+
+.extra-menu a:hover {
+    color: #191919;
+    text-decoration: underline;
+}
+.black-bg {
+    background: black;
+    overflow: hidden;
+}
+.black-bg p {
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+}
+.footer-logo {
+    width: 103px;
+    height: 101px;
+    margin: 30px auto 20px;
+}
+
+/* rwd(responsive web design, 반응형 웹디자인*/
+@media screen and (max-width: 480px) {
+     #tb_fee, #tb_cast {
+        max-width: 90%
+    }
 }
