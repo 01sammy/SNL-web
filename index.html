@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/13901f0102.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -47,8 +48,8 @@
                     <div class="board">
                         <h2>notice</h2>
                         <p>SNL 방송관련 공지사항을 <br>알려드립니다.</p>
-                        <button>&lt;</button>
-                        <button>&gt;</button>
+                        <button><i class="fas fa-arrow-left"></i></button>
+                        <button><i class="fas fa-arrow-right"></i></button>
                     </div>
                     <div class="icons">
                         <ul>
@@ -73,9 +74,12 @@
                         </ul>
                     </div>
                 </div>
-                        </div>
-                        <div class="banner">
-                <img src="images/ticket-banner.png" alt="방청권 예매">
+                <div class="banner">
+                    <img src="images/ticket-banner.png" alt="방청권 예매" usemap="#map1">
+                    <map name="map1">
+                        <area shape="rect" coords="211,15,403,36" href="javascript:alert('서비스 점검중').html" alt="방청권 예매로 연결">
+                    </map>
+                </div>
                         </div>
             </div>
    <!--footer-->
